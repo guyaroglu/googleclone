@@ -1,0 +1,59 @@
+body  {                            /*body içeriği konumu center'a aldım*/
+    text-align: center;
+}
+.img {                             /*resim icin img class özelliği verildi*/
+    text-align: center;            /*kaynaktaki resim özellik ile center'landı*/
+}
+.container {                       /*ilk bar container ile adlandırılma yapldı*/
+    background-color: #EEEEEE;  /*inspect yardımı ile bölge color kodu bulundu*/
+    color: black;               /* text rengi verildi*/
+    text-align: center;           /* text pozisyonu seçildi*/
+    font-size: 16px;              /* inspect yardımı ile text boyutu bulundu*/
+    width: 1700px;                /* inspect yardımı ve göz kararı px cinsinden uzunluk*/
+    height: 64px;                 /* inpsect yardımı ile px cinsi container genişliği*/
+    float: left;                  /* container sol tarafa yanaştırılıdı*/
+    margin-left:5%;               /* cobtainer sol taraftan mesafe ile orj. e benzeltdi*/
+    font-style: normal;           /* inspect yardımı ile font stili normal secildi*/
+    
+       
+      
+}
+
+.box-1 {                             /*ilk kutu box-1 class ı ile isimlendirldi*/
+    background-color: #7EE5DA;    /*inspect kısımından bölge color kodunu aldım*/
+    width: 600px ;                  /*inspect kısımından ortalama px width secildi*/
+    margin-top: 4.1em;              /*container ile arasındaki mesafe orj benzetldi*/
+    height: 68px;                   /*inspect kısımından yararlanılarak height verildi*/
+    padding-top: 5px;               /* box içindeki text top kısmından mesafe verildi*/
+    margin-left: 5%;                /*box-1 sayfa solundan %5 mesafe verildi*/
+    
+}
+
+.box-2 {                            /*ikinci kutu box-2 class ı ile isimlendirildi*/
+    background-color: #70ccc2;    /*inspect üzerinden bg kodunu aldım*/
+    width: 365px;                   /*yakın değerler ile genişlik ayarladım*/
+    height: 68px;                   /* yakın değerler ile yukseklil ayarladım*/
+    display: block;                 /*div özelliği blockline olarak sectim*/
+    margin-top: -5em;               /*container arası uzaklık ayarladım*/
+    margin-left: 100.5%;            /*sol tarafan % uzakalık değeri ile konum ayarladım*/
+    /* margin-right:0;*/              
+    padding-top: 5px;               /*box içindeki text top tan mesafe verildi*/
+    /* padding-bottom: 0;*/
+    font-size: 13px;                /*text boyutu 13px verildi*/
+
+}
+
+.box-3 {                           /* box-3 classı yaratıldı*/
+    background-color: #62b3aa;   /* inspectten bg color kodu alındı*/
+    font: 11px "times new roman";  /*text boyutu,stili verildi*/
+    padding-bottom: 4px;           /* text bottomdan box içi mesafe aldı*/
+    display: block;                /* box-3 display özelliği ile blockline kayıt aldım*/
+    height: 69px;                  /* ortalama height değeri verildi*/
+    margin-left: 161.7%;           /*left tarafından konumuna dogru mesafe aldırıldı*/
+    margin-top: -6.6em;            /*top tarafından konumuna doğrı neg. mesafe aldırıldı*/
+    width: 730px;                  /*genişlik ortalama ayarlandı*/
+}
+
+.p {                              /*p elementi için class acıldı*/
+    text-align: center;           /*p elementi için center konumu seçildi*/
+}
